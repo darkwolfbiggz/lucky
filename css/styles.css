@@ -1,0 +1,137 @@
+
+#logo {
+    
+    display: flex;
+   
+    
+    list-style: none;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+nav{
+    font-size: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(8, 92, 92);
+    color: beige;
+    text-align: center;
+    flex: auto;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    flex-grow: inherit;
+   
+    
+    
+}
+
+nav li {
+    display: inline-block;
+    flex-grow: inherit;
+    margin: 1rem;
+}
+
+a:link {color: beige;}
+a:visited {color: red}
+a:hover {color: #FCFC0C}
+a:active {color: #C0F0FC}
+
+body {
+    background-color: #79510c94;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 5rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    
+    text-align: center;
+    flex: auto;
+    flex-wrap: wrap;
+    height: 200px;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;}
+
+
+
+h2{
+    font-size: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: beige;
+}
+ 
+
+
+
+section {
+    display: flex;
+  
+}
+
+img{
+    margin: 1rem;
+    padding: 1rem;
+}
+article {
+    flex: 1;
+   
+    color: beige;
+}
+article2{
+    background-color: rgb(8, 92, 92);
+    color: beige;
+    padding: 2em;
+    margin: 1rem;
+    border-radius: 1rem;
+
+    width: 480px;
+}
+section2{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+    
+
+footer{
+    display: flex;
+    flex: auto;
+    margin: 1rem;
+    text-align: center;
+   size: 5rem;
+    color: beige;
+    padding: 2em;
+   margin: 1rem;
+    border-radius: 1rem;
+}
+footer div {
+    flex: 2;
+    justify-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+
+
+article2:hover {transform: scale3d(1.09, 1.1, 1.3);
+}
